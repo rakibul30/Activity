@@ -1,0 +1,60 @@
+@media (min-width: 0px) and (max-width: 576px){
+    /* commonn code start */
+    :root{
+        --hs-1: 35px;
+    }
+    .my{
+        margin: 30px 0px;
+    }
+    .py-160{
+        padding: 60px 0px;
+    }
+    /* common code end */
+    /* header-section start */
+    .navbar{
+        flex-direction: column;
+        align-items: end;
+    }
+    .width-25{
+    width:50%;
+    }
+    .width-75{
+        width: 50%;
+    }
+    .banner-area{
+        line-height: 1.5;
+    }
+    .banner-area a{
+        padding: 10px 20px;
+    }
+    /* header-section end */
+}
+@media (min-width:576px) and (max-width:767px){
+    /* common-code start*/
+    :root{
+        --hs-1: 55px;
+    }
+    .py-160{
+        padding: 100px 0px;
+    }
+    /* common-code end */
+    /* header-section start */
+    nav.navbar{
+        flex-direction: column;
+        align-items: end;
+        display: none;
+    }
+    nav.width-25{
+        width: 50%;
+    }
+    nav.width-75{
+        width: 50%;
+    }
+    .banner-area p{
+        line-height: 1.6;
+    }
+    .banner-area a{
+        padding: 10px 25px;
+    }
+    /* end header-section */
+}
